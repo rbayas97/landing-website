@@ -187,3 +187,11 @@ p.author{
     margin: 0px;
 
 }
+
+.footer {
+    display: flex;
+    background: #142937;
+    color: white;
+    justify-content: center;
+    padding: 16px;
+}
