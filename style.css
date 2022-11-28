@@ -1,0 +1,129 @@
+html {
+    height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+
+}
+
+.header {
+    display: flex;
+    background: #142937;
+    color: white;
+    justify-content: space-between;
+}
+
+.header .text{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 48px;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    margin-right: 48px;
+}    
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container-1 {
+    background: #142937;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.container-1 .text {
+    margin-left: 48px;
+    font: 400 14px sans-serif;
+}
+
+h1 {
+    font: 900 48px sans-serif, "Times New Roman";
+    width: 400px;
+    margin-left: 48px;
+}
+
+.sign-up {
+    align-self: flex-start;
+    margin-left: 48px;
+    background-color: #3883f6;
+    padding: 4px 16px;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 48px;
+    margin-top: 16px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.container-2 .header-text {
+    display: flex;
+    justify-content: center;
+    font: 900 36px sans-serif;
+    margin: 24px 0px;
+}
+
+.rectangle-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+   
+}
+
+.rectangle {
+    border: 4px solid #3883f6;
+    border-radius: 8px;
+    min-width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.container-3 {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+    align-items: center;
+    flex: 1;
+    
+}
+
+p {
+  font: italic lighter 24px sans-serif;
+  width: 800px;
+ 
+
+}
+
+p.author{
+    display: flex;
+    justify-content: flex-end;
+    font: bold 16px sans-serif, arial;
+}
+
+
+
+.container-4 {
+    flex: 1;
+}
